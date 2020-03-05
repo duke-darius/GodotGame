@@ -1,0 +1,5 @@
+C:\Users\Aaron\Documents\AG-RPG\.mono\temp\obj\Tools\AG-RPG.csprojAssemblyReference.cache
+C:\Users\Aaron\Documents\AG-RPG\.mono\temp\bin\Tools\AG-RPG.dll
+C:\Users\Aaron\Documents\AG-RPG\.mono\temp\bin\Tools\AG-RPG.pdb
+C:\Users\Aaron\Documents\AG-RPG\.mono\temp\obj\Tools\AG-RPG.dll
+C:\Users\Aaron\Documents\AG-RPG\.mono\temp\obj\Tools\AG-RPG.pdb

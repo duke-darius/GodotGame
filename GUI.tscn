@@ -1,0 +1,38 @@
+[gd_scene load_steps=4 format=2]
+
+[ext_resource path="res://GUI.gd" type="Script" id=1]
+[ext_resource path="res://UI/Bar.tscn" type="PackedScene" id=2]
+[ext_resource path="res://UI/HP_Bar.gd" type="Script" id=3]
+
+[node name="GUI" type="MarginContainer"]
+anchor_right = 1.0
+margin_left = 20.0
+margin_top = 20.0
+margin_right = 20.0
+margin_bottom = 20.0
+script = ExtResource( 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="HBoxContainer" type="HBoxContainer" parent="."]
+margin_right = 1024.0
+margin_bottom = 110.0
+
+[node name="Bars" type="VBoxContainer" parent="HBoxContainer"]
+margin_right = 500.0
+margin_bottom = 110.0
+
+[node name="HP_Bar" parent="HBoxContainer/Bars" instance=ExtResource( 2 )]
+script = ExtResource( 3 )
+
+[node name="Mana_Bar" parent="HBoxContainer/Bars" instance=ExtResource( 2 )]
+margin_top = 57.0
+margin_bottom = 110.0
+
+[node name="HBoxContainer" type="HBoxContainer" parent="HBoxContainer"]
+margin_left = 504.0
+margin_right = 504.0
+margin_bottom = 110.0
+
+[node name="Tween" type="Tween" parent="."]
